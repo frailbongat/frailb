@@ -16,9 +16,7 @@ const config = {
 		vite: {
 			resolve: {
 				alias: {
-					$components: path.resolve('./src/components'),
-					$containers: path.resolve('./src/containers'),
-					$utils: path.resolve('./src/utils')
+					$components: path.resolve('./src/lib/components')
 				}
 			}
 		}
